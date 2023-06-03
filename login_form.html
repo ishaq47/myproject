@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/login_form.css">
+  <script src="js/login-form.js"></script>
+</head>
+
+<body style="text-align: center;">
+
+  <div class="login">
+
+    <!-- log In text -->
+    <h1>Login</h1><br><br>
+    <form class="form" action="php/login.php" onsubmit= "return validate()" > <!--form--> <!--input fields-->
+      <input type="email" id="email" class="input" name="email" placeholder="e.g something@gmail.com" /><br><br>
+
+      <input type="password" id="password" class="input" name="password"
+        placeholder="Enter User Password *******" /><br><br>
+      <div>
+        <!-- log In button -->
+        <button class="btn">Login</button>
+      </div>
+      <!--for signup-->
+      <p class="p__btn">Create an Account? <a href="signup.html">Sign up</a></p>
+    </form>
+
+  </div>
+
+</body>
+
+</html>
